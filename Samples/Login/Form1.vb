@@ -9,8 +9,10 @@ Public Class Form1
     End Sub
 
     Private Sub Button1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button1.Click
-        If accounthandler.neologin("user", "password", mywrapper) = True Then
-            MsgBox("logged in")
+        If accounthandler.neologin(txtusername.Text, txtpassword.Text, mywrapper) = True Then
+            MsgBox("logged in") 'User was logged in
+        Else
+            MsgBox("error logging in - " & accounthandler.LastLoginResult)
         End If
     End Sub
 
