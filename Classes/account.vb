@@ -14,8 +14,6 @@ Public Class account
 
 
 
-        strusername = URLEncode(strusername) 'Url encode username and password (otherwise a error will show with if the user has symbols in there username/pass)
-        strpassword = URLEncode(strpassword)
 
         htmlholder = thewrapper.Request("POST", "http://www.neopets.com/login.phtml?username=" & strusername & "&password=" & strpassword & "&destination=", thewrapper.LastPage) ' Now do a http post rewquest sending all the needed form data to login
 
@@ -36,7 +34,8 @@ Public Class account
 
 
 
-        ElseIf InStr(1, htmlholder, "index") Then 'Check html contents for valid login
+
+        ElseIf InStr(1, htmlholder, "/index.phtml") Then 'Check html contents for valid login
 
             LastLoginResult = ("success")
             Return True

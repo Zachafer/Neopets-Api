@@ -28,7 +28,6 @@ Partial Class Form1
         Me.txtusername = New System.Windows.Forms.TextBox()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label1 = New System.Windows.Forms.Label()
-        Me.text1 = New System.Windows.Forms.RichTextBox()
         Me.GroupBox1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -87,20 +86,11 @@ Partial Class Form1
         Me.Label1.TabIndex = 0
         Me.Label1.Text = "Username:"
         '
-        'text1
-        '
-        Me.text1.Location = New System.Drawing.Point(19, 179)
-        Me.text1.Name = "text1"
-        Me.text1.Size = New System.Drawing.Size(273, 104)
-        Me.text1.TabIndex = 1
-        Me.text1.Text = ""
-        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(322, 309)
-        Me.Controls.Add(Me.text1)
+        Me.ClientSize = New System.Drawing.Size(322, 165)
         Me.Controls.Add(Me.GroupBox1)
         Me.Name = "Form1"
         Me.Text = "Rare Api v1.0"
@@ -115,6 +105,5 @@ Partial Class Form1
     Friend WithEvents txtusername As System.Windows.Forms.TextBox
     Friend WithEvents Label2 As System.Windows.Forms.Label
     Friend WithEvents Label1 As System.Windows.Forms.Label
-    Friend WithEvents text1 As System.Windows.Forms.RichTextBox
 
 End Class
