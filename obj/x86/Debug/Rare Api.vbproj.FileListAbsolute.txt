@@ -1,0 +1,11 @@
+C:\Users\rdd\Desktop\Rare Api\Rare Api\Rare Api\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\rdd\Desktop\Rare Api\Rare Api\Rare Api\obj\x86\Debug\Rare_Api.Form1.resources
+C:\Users\rdd\Desktop\Rare Api\Rare Api\Rare Api\obj\x86\Debug\Rare_Api.Resources.resources
+C:\Users\rdd\Desktop\Rare Api\Rare Api\Rare Api\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\rdd\Desktop\Rare Api\Rare Api\Rare Api\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\rdd\Desktop\Rare Api\Rare Api\Rare Api\bin\Debug\Rare Api.exe
+C:\Users\rdd\Desktop\Rare Api\Rare Api\Rare Api\bin\Debug\Rare Api.pdb
+C:\Users\rdd\Desktop\Rare Api\Rare Api\Rare Api\bin\Debug\Rare Api.xml
+C:\Users\rdd\Desktop\Rare Api\Rare Api\Rare Api\obj\x86\Debug\Rare Api.exe
+C:\Users\rdd\Desktop\Rare Api\Rare Api\Rare Api\obj\x86\Debug\Rare Api.xml
+C:\Users\rdd\Desktop\Rare Api\Rare Api\Rare Api\obj\x86\Debug\Rare Api.pdb
